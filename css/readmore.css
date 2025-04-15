@@ -99,13 +99,14 @@
    }
    .our-solutions__grid-benefits {
       display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
       gap: 10px;
       margin-top: 24px;
    }
    .our-solutions__item-benefits {
       padding: 24px;
+      font-size: 16px;
    }
 }
 
@@ -271,7 +272,7 @@
       height: 100px;
    }
    .item-case-studies__title {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 1;
    }
    .item-case-studies__client {
@@ -280,7 +281,7 @@
    .item-case-studies__focus {
       flex: 1 1 auto;
       margin: 0;
-      font-size: 18px;
+      font-size: 16px;
       padding-bottom: 20px;
       line-height: 1;
    }
@@ -386,11 +387,11 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 70%;
    }
    .methods__title {
       font-size: 32px;
       text-align: center;
+      width: 70%;
    }
    .methods__grid {
       display: grid;
@@ -407,6 +408,14 @@
    .methods__grid-row:nth-child(1),
    .methods__grid-row:nth-child(2) {
       grid-template-columns: 1fr;
+   }
+   .methods-item__title {
+      font-size: 20px;
+   }
+   .methods-item__text {
+      padding-bottom: 0px;
+      font-size: 16px;
+      line-height: 1.2;
    }
 }
 
@@ -456,5 +465,13 @@
       grid-template-columns: 1fr;
       gap: 20px;
       margin-top: 20px;
+   }
+   .references-item__title {
+      font-size: 20px;
+   }
+   .references-item__text {
+      padding-bottom: 0px;
+      font-size: 16px;
+      line-height: 1.2;
    }
 }
