@@ -1,5 +1,4 @@
 /*first section*/
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .our-solutions {
    position: relative;
    padding: 100px 20px 20px 20px;
@@ -26,11 +25,7 @@
    opacity: 0.56;
 }
 
-.container {
-   width: 100%;
-   max-width: 1280px;
-   margin: 0 auto;
-}
+
 .our-solutions__body {
    width: 100%;
    gap: 20px;
@@ -42,15 +37,7 @@
 }
 .our-solutions__title {
    font-size: 64px;
-   color: white;
-   text-shadow: 0 0 10px #323232;
-   font-family: "Funnel Display", sans-serif;
-   line-height: 1;
    font-weight: 500;
-}
-.our-solutions__title i {
-   color: #bdfe8a;
-   font-style: normal;
 }
 
 .our-solutions__text {
@@ -123,7 +110,7 @@
    display: flex;
    flex-direction: column;
    position: sticky;
-   top: 100px;
+   top: 20px;
    flex: 1 1 auto;
    height: fit-content;
    gap: 10px;

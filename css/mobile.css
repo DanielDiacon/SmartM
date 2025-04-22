@@ -19,23 +19,23 @@
 }
 
 /* Header */
-.header .container h1 {
+.hero .container h1 {
   font-size: 50px;
   margin-top: 80px;
 }
 
-.header .container p {
+.hero .container p {
   font-size: 20;
   padding: 16px;
   margin: 8px;
 }
 
-.header .container a {
+.hero .container a {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-.header .container .wrap {
+.hero .container .wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
