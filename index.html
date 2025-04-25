@@ -165,27 +165,14 @@
                </div>
             </div>
          </section>
-         <section id="about">
-            <section class="flex-column">
-               <div class="column-1">
+         <section class="details">
+            <div class="details__row">
+               <div class="details__img">
                   <img src="./img/about1.jpg" alt="" />
                </div>
-               <div class="column-2">
-                  <h3>THE METHOD</h3>
-                  <p>
-                     We analyze your metallurgical system to identify key
-                     parameters for monitoring. Using expert knowledge and
-                     machine learning, we uncover meaningful relationships in
-                     the data and predict the critical factors that optimize
-                     production, reduce energy use, and minimize emissions.
-                     <span><a href="/html/readmore.html">Read more</a></span>
-                  </p>
-               </div>
-            </section>
-            <section class="flex-column">
-               <div class="column-3">
-                  <h3>REDUCING ENERGY CONSUMPTION</h3>
-                  <p>
+               <div class="details__details">
+                  <h3 class="details__title title">The method</h3>
+                  <p class="details__text text">
                      Our solution has been proven to optimize energy usage,
                      improve material efficiency, and reduce processing time.
                      Operators can use the software to select input materials
@@ -193,97 +180,150 @@
                      product quality, and CO<sub>2</sub> emissions. Real-time
                      data collection continuously improves the model for even
                      greater efficiency.
-                     <span><a href="/html/readmore.html">Read more</a></span>
+                     <span><a href="./html/readmore.html">Read more</a></span>
                   </p>
                </div>
-               <div class="column-4">
+            </div>
+            <div class="details__row">
+               <div class="details__details">
+                  <h3 class="details__title title">
+                     Reducing energy consumption
+                  </h3>
+                  <p class="details__text text">
+                     We analyze your metallurgical system to identify key
+                     parameters for monitoring. Using expert knowledge and
+                     machine learning, we uncover meaningful relationships in
+                     the data and predict the critical factors that optimize
+                     production, reduce energy use, and minimize emissions.
+                     <span><a href="./html/readmore.html">Read more</a></span>
+                  </p>
+               </div>
+               <div class="details__img">
                   <img src="./img/about2.jpg" alt="" />
                </div>
-            </section>
+            </div>
          </section>
-
-         <section id="team">
-            <h2>OUR TEAM</h2>
-            <section class="flex-items">
-               <div>
-                  <img src="./img/Vaso.jpg" alt="" />
-                  <div>
-                     <h3>Vaso Manojlović</h3>
-                     <h4>Team leader</h4>
-                  </div>
-               </div>
-               <div>
-                  <img src="./img/Jelena.jpg" alt="" />
-                  <div>
-                     <h3>Jelena Ivanović</h3>
-                     <h4>Manager</h4>
-                  </div>
-               </div>
-               <div>
-                  <img src="./img/Nigel.jpg" alt="" />
-                  <div>
-                     <h3>Nigel Phuthi</h3>
-                     <h4>Metallurgical Engineer</h4>
-                  </div>
-               </div>
-               <div>
-                  <img src="./img/Milan.jpg" alt="" />
-                  <div>
-                     <h3>Milan Dotlić</h3>
-                     <h4>Machine learning scientist</h4>
-                  </div>
-               </div>
-            </section>
-            <p>
-               Our team consists of industry professionals and academic experts
-               who bring deep knowledge and practical experience in
-               metallurgical processes and optimization. Vaso Manojlović, a
-               professor at the University of Belgrade’s Department of
-               Metallurgical Engineering, teaches courses on the theory of
-               metallurgical processes, measurements, and control in industry.
-               Jelena Ivanović is completing her PhD in circular economy and
-               waste management, bringing expertise in sustainability. Nigel
-               Phuthi is a seasoned metallurgical engineer with extensive
-               knowledge of various industrial systems. Milan Dotlić, with a PhD
-               in applied mathematics, is a researcher at the Institute for
-               Artificial Intelligence, specializing in machine learning and
-               data-driven solutions for industrial applications.
-            </p>
-         </section>
-
-         <section id="contact">
-            <h2>CONTACT US</h2>
+         <section class="team">
             <div class="container">
-               <div class="wrap">
+               <div class="team__body">
+                  <div class="team__details">
+                     <h2 class="team__title title">Our team</h2>
+
+                     <p class="team__text">
+                        Our team consists of industry professionals and academic
+                        experts who bring deep knowledge and practical
+                        experience in metallurgical processes and optimization.
+                     </p>
+                  </div>
+
+                  <div class="team__grid">
+                     <div class="team__person">
+                        <div class="team__img-wrapper">
+                           <div class="team__img">
+                              <img src="./img/Vaso.jpg" alt="do1" />
+                           </div>
+                        </div>
+                        <p class="team__name">Vaso Manojlović</p>
+                        <p class="team__specialist">Team leader</p>
+                     </div>
+                     <div class="team__person">
+                        <div class="team__img-wrapper">
+                           <div class="team__img">
+                              <img src="./img/Jelena.jpg" alt="do1" />
+                           </div>
+                        </div>
+                        <p class="team__name">Jelena Ivanović</p>
+                        <p class="team__specialist">Manager</p>
+                     </div>
+                     <div class="team__person">
+                        <div class="team__img-wrapper">
+                           <div class="team__img">
+                              <img src="./img/Nigel.jpg" alt="do1" />
+                           </div>
+                        </div>
+                        <p class="team__name">Nigel Phuthi</p>
+                        <p class="team__specialist">Metallurgical Engineer</p>
+                     </div>
+                     <div class="team__person">
+                        <div class="team__img-wrapper">
+                           <div class="team__img">
+                              <img src="./img/Milan.jpg" alt="do1" />
+                           </div>
+                        </div>
+                        <p class="team__name">Milan Dotlić</p>
+                        <p class="team__specialist">
+                           Machine learning scientist
+                        </p>
+                     </div>
+                  </div>
+                  <div class="team__grid-role">
+                     <p class="team__text-role">
+                        Vaso Manojlović, a professor at the University of
+                        Belgrade’s Department of Metallurgical Engineering,
+                        teaches courses on the theory of metallurgical
+                        processes, measurements, and control in industry.
+                     </p>
+                     <p class="team__text-role">
+                        Jelena Ivanović is completing her PhD in circular
+                        economy and waste management, bringing expertise in
+                        sustainability.
+                     </p>
+                     <p class="team__text-role">
+                        Nigel Phuthi is a seasoned metallurgical engineer with
+                        extensive knowledge of various industrial systems.
+                     </p>
+
+                     <p class="team__text-role">
+                        Milan Dotlić, with a PhD in applied mathematics, is a
+                        researcher at the Institute for Artificial Intelligence,
+                        specializing in machine learning and data-driven
+                        solutions for industrial applications.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="contact" id="contact">
+            <div class="contact__container container">
+               <div class="contact__body">
+                  <h2 class="contact__title title">Contact us</h2>
                   <form
                      action="./form/process.php"
                      method="post"
-                     class="callback-form"
+                     class="contact__form form"
                   >
-                     <div class="form-group">
+                     <div class="form__group">
                         <input
                            type="text"
                            name="name"
                            id="name"
+                           class="form__input"
                            placeholder="Name: Tell us who you are"
                         />
                      </div>
-                     <div class="form-group">
+                     <div class="form__group">
                         <input
                            type="email"
                            name="email"
                            id="email"
+                           class="form__input"
                            placeholder="Email: Best way to reach you"
                         />
                      </div>
-                     <div class="form-group">
+                     <div class="form__group">
                         <textarea
                            name="message"
                            id="message"
+                           class="form__textarea"
                            placeholder="Message: How can we assist you in optimizing your production?"
                         ></textarea>
                      </div>
-                     <input type="submit" value="Send" class="btn" />
+                     <input
+                        type="submit"
+                        value="Send"
+                        class="form__submit btn"
+                     />
                   </form>
                </div>
             </div>
