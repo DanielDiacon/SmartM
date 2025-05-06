@@ -130,11 +130,12 @@ img {
    font-family: "Funnel Display", sans-serif;
    line-height: 1;
    font-weight: 500;
+
 }
-.title i {
+/*.title i {
    color: #bdfe8a;
    font-style: normal;
-}
+}*/
 
 /* Footer */
 #footer {
